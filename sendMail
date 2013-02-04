@@ -53,7 +53,7 @@ def sendEmail(authInfo, fromAdd, toAdd, subject, plainText, htmlText):
 
 if __name__ == '__main__' :
         authInfo = {}
-        authInfo['server'] = '10.7.2.18'
+        authInfo['server'] = '127.0.0.1'
         authInfo['user'] = '*********'
         authInfo['password'] = '************'
         #fromAdd = 'fanchengchen@qq.com'
